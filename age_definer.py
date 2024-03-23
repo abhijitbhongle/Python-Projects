@@ -23,5 +23,3 @@ elif age >= 18:
 else:
     print("Age is just a number")
 
-
-
