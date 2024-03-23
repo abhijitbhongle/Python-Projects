@@ -2,7 +2,6 @@
 # The age will be an input to the the age asked.
 # Different age range will have different messages.
 # This has to to be done using if, elif and else statements.
-
 # Issue 1: Enhancing Age Range Messages
 age = int(input("Enter your age between 0 to 100?"))
 
@@ -22,4 +21,3 @@ elif age >= 18:
     print("Welcome to adulthood")
 else:
     print("Age is just a number")
-
