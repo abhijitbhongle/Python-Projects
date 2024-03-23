@@ -23,13 +23,5 @@ elif age >= 18:
 else:
     print("Age is just a number")
 
-# Issue 2: Input Validation
-while True:
-    try:
-        age = int(input("Enter your age between 0 to 100? "))
-        if 0 <= age <= 100:
-            break
-        else:
-            print("Please enter a valid age between 0 and 100.")
-    except ValueError:
-        print("Please enter a valid integer age.")
+
+
